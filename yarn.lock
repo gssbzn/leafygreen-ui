@@ -1371,6 +1371,39 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
+"@leafygreen-ui/emotion@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@leafygreen-ui/emotion/-/emotion-1.0.0.tgz#816396615a8dd74f6563d0e153567c77b1269221"
+  integrity sha512-XqVEYWmoEh0WgI8RE4Xo45rQIl9WJElhmboiVczddIBODWfaE10B14mIU7hmTeJIN+Q2eXo7r87s1gEES6j3Zg==
+  dependencies:
+    create-emotion "^10.0.7"
+    emotion "^10.0.7"
+
+"@leafygreen-ui/hooks@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@leafygreen-ui/hooks/-/hooks-1.0.0.tgz#1d8e5742e6deba17113f05f1cc442dceb542a4d6"
+  integrity sha512-m540Q3dE8OthwzLPmL3EC1ml/wKhmctTU9Kl6UWJAHqThtGqj3CZUK7YHD5q29WvQw9A3xFf6Wpdqff6rADDog==
+
+"@leafygreen-ui/lib@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@leafygreen-ui/lib/-/lib-3.0.0.tgz#99119aa101885a2ce5817a151b004e031c4e3c2f"
+  integrity sha512-O3m1Ft0jQs2J98qXETQYc/KP5jMWJo4cfcgZ+7NyG6QLyG3YQOm6ieIsDlE7nzG0oZFwROSfbsyQaSiH78tULA==
+  dependencies:
+    "@leafygreen-ui/emotion" "^1.0.0"
+    polished "^2.3.0"
+
+"@leafygreen-ui/portal@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@leafygreen-ui/portal/-/portal-1.1.0.tgz#a6144c0269bcdc41778d60be9333d91470a6b347"
+  integrity sha512-n4GP8wkUQYC4+8d5WxeLIFDZ8p/HjR+7BRz3W5BkGCznqhrlz0vLJnv8k0q6sCUVrOIfIvpHCX57chgHwwLxoQ==
+  dependencies:
+    "@leafygreen-ui/lib" "^3.0.0"
+
+"@leafygreen-ui/theme@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@leafygreen-ui/theme/-/theme-1.2.0.tgz#28667761261dabbe779337ff71e880cafa46d6ac"
+  integrity sha512-zB6N1U0G4Tcqgx6Cy4QTxDgpzWsMruQM4sCdNa93ZxLk6i1eECvuv6Sriurt4u4Cz5QW3gRb9dE+j6kOsM70AA==
+
 "@lerna/add@^3.4.1":
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/@lerna/add/-/add-3.15.0.tgz#10be562f43cde59b60f299083d54ac39520ec60a"
